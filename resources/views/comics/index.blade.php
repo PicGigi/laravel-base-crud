@@ -1,4 +1,7 @@
 @extends('layouts.base')
+
+    @section('title', 'Lista dei fumetti')
+
     @section('content')
     <h1>Ciao {{ $utente }}</h1>
     @foreach ($fumetti as $fumetto)
